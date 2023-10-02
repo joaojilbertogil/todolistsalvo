@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <title>Lista de Tarefa</title>
+</head>
+<body>
+    <header>
+        <!-- Botão do menu -->
+        <div class="menu-button" id="menuButton">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <!-- Menu lateral -->
+        <nav class="menu" id="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/sobre.html">Sobre</a></li>
+                <li><a href="pages/ajuda.html">Ajuda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Resto do seu conteúdo -->
+        <section class="todo_title">
+            <h1 class="white-text">Lista de Tarefas</h1>
+        </section>
+
+        <section class="todo_new-item" id="newItem">
+            <section>&and;</section>
+            <input type="text" placeholder="Digite e pressione enter para adicionar a tarefa">
+            <section>&and;</section>
+        </section>
+
+        <section class="todo_list" id='todoList'>
+
+        </section>
+    </main>
+
+    <script src="js/main.js"></script>
+    
+</body>
+<footer class="footer">
+    Made by João Gilberto C Favaro &copy;
+</footer>
+</html>
